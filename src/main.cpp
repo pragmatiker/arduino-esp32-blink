@@ -10,13 +10,14 @@ void setup() {
 }
 
 void loop() {
-  int count=4;
+  int count;
+  count=4;
   for (size_t i = 0; i < count; i++)
   {
-    showLED(GREENLED,400, HIGH);
+    showLED(GREENLED,2000, HIGH);
     showLED(GREENLED,200, LOW);
   }
-  count=10;
+  count=5;
   for (size_t i = 0; i < count; i++)
   {
     showLED(GREENLED,30, HIGH);
@@ -29,6 +30,18 @@ void loop() {
     showLED(GREENLED,200, LOW);
   }
   count=15;
+  for (size_t i = 0; i < count; i++)
+  {
+    showLED(GREENLED,30, HIGH);
+    showLED(GREENLED,30, LOW);
+  }
+  count=5;
+  for (size_t i = 0; i < count; i++)
+  {
+    showLED(GREENLED,400, HIGH);
+    showLED(GREENLED,200, LOW);
+  }
+  count=9;
   for (size_t i = 0; i < count; i++)
   {
     showLED(GREENLED,30, HIGH);
